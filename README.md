@@ -102,9 +102,3 @@ LTspice, Python with NumPy and Matplotlib, and a FNIRSI 2C53T that covers
 oscilloscope, signal generator, and multimeter duty. Everything else was a
 breadboard.
 
-## Still to do
-
-Swap the clipping diodes (silicon, then germanium, then LEDs) and the op-amp
-(TL072, then JRC4558, then NE5532), predicting each change from the datasheets
-before measuring it. Measure the noise floor. Move it off the breadboard onto a
-real board.
