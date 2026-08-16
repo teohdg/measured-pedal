@@ -71,18 +71,6 @@ percent of the simulation, and the spectrum confirmed something I had only guess
 from the shape of the waveform, which is that symmetric clipping kills the even
 harmonics and leaves the odd ones standing.
 
-## The parts that went wrong
-
-This is real bench work, so it includes the failures. I floated the supplies in the
-first simulation and spent a while confused about why nothing amplified. On the
-bench I measured the wrong node and read a gain 20 dB too low before I realized the
-tone network was eating the signal. A probe scaling factor of ten fought me for an
-afternoon. A resistor fell out. The drive pot developed an intermittent connection
-and then died for good. The output oscillated until I traced it to a stability
-capacitor I had left off the board. There is one input-level discrepancy I never
-fully explained, so it is written up as open instead of dressed up as understood.
-Anywhere I did not actually measure a value, it says TBD, not a guess.
-
 ## Layout
 
 ```
